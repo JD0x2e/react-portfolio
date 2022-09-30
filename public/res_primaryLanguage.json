@@ -72,28 +72,25 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": ["Angular 8/9/10"],
-      "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
-      ]
+      "company": "Tech Educators",
+      "title": "Web3 Blockchain Bootcamp",
+      "years": "21.11.22 - Present",
+      "mainTech": ["Solidity"],
+      "technologies": ["Solidity", "Node.js"]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": ["Angular 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      "company": "Tech Educators",
+      "title": "Full Stack MERN Bootcamp",
+      "years": "05.08.2022 - 11.11.2022",
+      "mainTech": ["MERN Stack"],
+      "technologies": ["HTML 5", "CSS 3", "JavaScript", "Bootstrap", "SCSS", "React", "MongoDB", "Express", "Node.js"]
+    },
+    {
+      "company": "Scrimba",
+      "title": "Learn React for free",
+      "years": "07.22 - Present",
+      "mainTech": ["React"],
+      "technologies": ["React", "HTML 5", "CSS 3", "JavaScript"]
     }
   ]
 }
