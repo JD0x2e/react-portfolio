@@ -20,13 +20,8 @@ class Footer extends Component {
           <div className="row">
             <div className="col social-links">{networks}</div>
             <div className="col">
-              <div 
-                onClick={() =>
-                  this.props.applyPickedLanguage(
-                    window.$primaryLanguage,
-                    window.$secondaryLanguageIconId
-                  )
-                }
+              <div
+                onClick={() => this.props.applyPickedLanguage(window.$primaryLanguage, window.$secondaryLanguageIconId)}
                 style={{ display: "inline" }}
               >
                 <span
@@ -36,32 +31,17 @@ class Footer extends Component {
                   id={window.$primaryLanguageIconId}
                 ></span>
               </div>
-              <div 
-                onClick={() =>
-                  this.props.applyPickedLanguage(
-                    window.$secondaryLanguage,
-                    window.$primaryLanguageIconId
-                  )
-                }
+              <div
+                onClick={() => this.props.applyPickedLanguage(window.$secondaryLanguage, window.$primaryLanguageIconId)}
                 style={{ display: "inline" }}
               >
-                <span
-                  className="iconify language-icon"
-                  data-icon="twemoji-flag-for-flag-poland"
-                  data-inline="false"
-                  id={window.$secondaryLanguageIconId}
-                ></span>
+                <span className="iconify language-icon" data-inline="false" id={window.$secondaryLanguageIconId}></span>
               </div>
             </div>
             <div className="col">
               <div className="copyright py-4 text-center">
                 <div className="container">
-                  <small>
-                    Copyright &copy;{" "}
-                    {this.props.sharedBasicInfo
-                      ? this.props.sharedBasicInfo.name
-                      : "???"}
-                  </small>
+                  <small>Copyright &copy; {this.props.sharedBasicInfo ? this.props.sharedBasicInfo.name : "???"}</small>
                 </div>
               </div>
             </div>
