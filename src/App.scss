@@ -44,7 +44,9 @@ header {
   -webkit-background-size: cover;
   text-align: center;
   overflow: hidden;
-  background-color: #75ad9d;
+  // background-color: #75ad9d;
+  background: rgb(11, 29, 51);
+  background: linear-gradient(45deg, rgba(11, 29, 51, 1) 0%, rgba(39, 221, 223, 1) 83%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
